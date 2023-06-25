@@ -10,7 +10,8 @@ Entretanto, existe uma desvantagem ao lançarmos mão de Brokers: perdemos o con
 Assim sendo, em apenas uma situação do diagrama abaixo, implementei comunicação síncrona GET Feign, modelo request-response, comunicação bloqueante, forte consistência, forte acoplamento, em que a Api-User vai até a Api-TrafficFineRecord buscar por este dado atualizado.
 
 
-# f01
+
+![f01- Foto Draw-TrafficFineRecord, v4 base Linkedin](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/2f2a0cb7-0fec-4a66-bd64-ff80f88073a3)
 
 
 
@@ -39,7 +40,8 @@ docker run --name dck-rabbitmq -p 5672:5672 -p 15672:15672 --hostname rabbitmq-m
 ```
 
 
-# f02
+
+![f02, 02- Captura de Tela (788)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/550bebf6-bfa2-46f5-b829-e05e782a17df)
 
 
 
@@ -48,7 +50,8 @@ docker run --name dck-rabbitmq -p 5672:5672 -p 15672:15672 --hostname rabbitmq-m
 ![Badge 1](http://img.shields.io/static/v1?label=Eclipse&message=Dashboard:&color=GREEN&style=for-the-badge)
 
 
-# f03
+
+![f03, 03- Captura de Tela (789)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/91e05167-86de-424b-bf81-f4c8124d1342)
 
 
 
@@ -56,7 +59,8 @@ docker run --name dck-rabbitmq -p 5672:5672 -p 15672:15672 --hostname rabbitmq-m
 ![Badge 1](http://img.shields.io/static/v1?label=Eureka!&message=Dashboard:&color=GREEN&style=for-the-badge)
 
 
-# f04
+
+![f04, 05new - Eureka, Captura de Tela (809)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/e3e02ef0-398e-46d8-a0c8-471286638c74)
 
 
 
@@ -66,7 +70,8 @@ docker run --name dck-rabbitmq -p 5672:5672 -p 15672:15672 --hostname rabbitmq-m
 A base de dados é distribuída, cada uma com suas próprias responsabilidades, porém que conversam entre si.
 
 
-# f05
+
+![f05, 05- Captura de Tela (802)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/e6579200-378f-40a0-aaeb-73ce15161705)
 
 
 
@@ -76,7 +81,8 @@ A base de dados é distribuída, cada uma com suas próprias responsabilidades, 
 
 ![Badge 1](http://img.shields.io/static/v1?label=Rabbit_MQ&message=Exchanges:&color=GREEN&style=for-the-badge)
 
-# f06
+
+![f06, 07 1new, Rabbit Exchanges, Captura de Tela (810)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/b3827663-491a-4e56-b174-bb12911ebbd7)
 
 
 
@@ -84,7 +90,8 @@ A base de dados é distribuída, cada uma com suas próprias responsabilidades, 
 ![Badge 1](http://img.shields.io/static/v1?label=Rabbit_MQ&message=Queues:&color=GREEN&style=for-the-badge)
 
 
-# f07
+
+![f07, 07 2new, Rabbir Queues, Captura de Tela (811)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/415f39f8-966a-4993-aed0-1498abe629a0)
 
 
 
@@ -94,7 +101,8 @@ A base de dados é distribuída, cada uma com suas próprias responsabilidades, 
 ![Badge 1](http://img.shields.io/static/v1?label=Postman&message=environment%20variables:&color=GREEN&style=for-the-badge)
 
 
-# f08
+
+![f08, 08- Captura de Tela (801)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/36afeb92-a1db-40f9-868b-84afc2fb8e6d)
 
 
 
@@ -104,7 +112,8 @@ Não utilizei UUIDs nas tabelas ‘tb_user’, ‘tb_automovel’ e ‘tb_infrac
 
 ![Badge 1](http://img.shields.io/static/v1?label=Tb_Roles&message=da%20Api-User:&color=GREEN&style=for-the-badge)
 
-# f09
+
+![f09, 91new, TB ROLES Captura de Tela (816)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/a8cac91a-b75a-48ef-8053-5d4017b8fb9b)
 
 
 
@@ -112,7 +121,8 @@ Não utilizei UUIDs nas tabelas ‘tb_user’, ‘tb_automovel’ e ‘tb_infrac
 
 ![Badge 1](http://img.shields.io/static/v1?label=Tb_User&message=da%20Api-User:&color=GREEN&style=for-the-badge)
 
-# f10
+
+![f10, 92NEW, TB USER, Captura de Tela (817)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/425a5f5b-6859-4550-9bdd-12484b3c565f)
 
 
 
@@ -120,7 +130,8 @@ Não utilizei UUIDs nas tabelas ‘tb_user’, ‘tb_automovel’ e ‘tb_infrac
 
 ![Badge 1](http://img.shields.io/static/v1?label=Tb_Users_Roles&message=da%20Api-User:&color=GREEN&style=for-the-badge)
 
-# f11
+
+![f11, 93NEW, TB USERS ROLES, Captura de Tela (818)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/c9b6ff8c-e026-4dc2-af27-0f46d4cba1cf)
 
 
 
@@ -128,7 +139,8 @@ Não utilizei UUIDs nas tabelas ‘tb_user’, ‘tb_automovel’ e ‘tb_infrac
 
 ![Badge 1](http://img.shields.io/static/v1?label=Tb_Automóvel&message=da%20Api-TrafficFineRecord:&color=GREEN&style=for-the-badge)
 
-# f12
+
+![f12, 94NEW, TB AUTOMOVEL, Captura de Tela (819)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/0c86750c-228a-4666-9312-d89192f368e6)
 
 
 
@@ -136,7 +148,8 @@ Não utilizei UUIDs nas tabelas ‘tb_user’, ‘tb_automovel’ e ‘tb_infrac
 
 ![Badge 1](http://img.shields.io/static/v1?label=Tb_Autuação&message=da%20Api-TrafficFineRecord:&color=GREEN&style=for-the-badge)
 
-# f13
+
+![f13, 95NEW, TB AUTUAÇÃO Captura de Tela (820)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/5556105f-3f51-4423-b7a8-56937de15e02)
 
 
 
@@ -144,7 +157,8 @@ Não utilizei UUIDs nas tabelas ‘tb_user’, ‘tb_automovel’ e ‘tb_infrac
 
 ![Badge 1](http://img.shields.io/static/v1?label=Tb_Infração&message=da%20Api-TrafficFineRecord:&color=GREEN&style=for-the-badge)
 
-# f14
+
+![f14, 96NEW, TB INFRAÇÃO, Captura de Tela (821)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/d9e111dc-cb9b-46f2-8185-8fc19b5229a7)
 
 
 
@@ -153,7 +167,8 @@ Não utilizei UUIDs nas tabelas ‘tb_user’, ‘tb_automovel’ e ‘tb_infrac
 
 Buscando maior disponibilidade na arquitetura, a API-User replica seus dados (‘tb_user’) para a API-TrafficFineRecord.
 
-# f15
+
+![f15, 97NEW, TB USER REPLICA, Captura de Tela (822)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/8abbac52-5ef1-4e9b-8ec2-9eed5694f8cd)
 
 
 
@@ -168,7 +183,8 @@ Necessariamente, a API-SmsMessage deve ser provocada, através de comando assín
 Resumindo, a API-TrafficFineRecord ao registrar nova autuação de trânsito emite mensagem de comando para a API-SmsMessage que, por sua vez, envia e salva em seu próprio banco de dados a respectiva mensagem SMS.
 
 
-# f16
+
+![f16, 98NEW, TB TWILIO, Captura de Tela (823)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/9fe7bdfd-afff-4140-9fd9-a1af9628804f)
 
 
 
@@ -192,7 +208,8 @@ https://www.twilio.com/
 e copiar as informações abaixo, que deverão ser inseridas como variável de ambiente no seu Eclipse:
 
 
-# f17
+
+![f17, 18- Captura de Tela (805)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/f6ef9556-0223-4f7e-b49e-281241c21747)
 
 
 
@@ -209,22 +226,30 @@ twilio.phone.to=${TWILIO_PHONE_TO}
 ```
 Lembrando que 'TWILIO_PHONE_TO' deve ser o seu número de telefone pessoal que ficou cadastrado no site Twilio.
 
-# f18
+
+![f18, 17- Captura de Tela (804)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/24a4fad9-f391-41cd-8557-052746873646)
 
 
 
 ### Passo 03 de 03:   Necessário, também, **descomentar** as linhas 21 a 31 e as linhas 48 a 58 da classe TwilioSmsService.java, conforme ambas as fotos abaixo:
 
-# f19
+
+![f19, 19 Captura de Tela (806)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/b59e9c70-d751-4897-805d-274d24c39d0e)
 
 
-# f20
+
+
+
+![f20, 20- Captura de Tela (807)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/5a1c4347-646a-447f-a60c-51351702848c)
+
+
 
 
 Seguem algumas amostras de SMSs que foram emitidos pelo Twilio enquanto eu estava em fase de testes da minha estrutura de microsserviços:
 
 
-# f21
+
+![f21, 22- SMS IMG-20230616-WA0003](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/a371f60d-455b-4687-afdc-40963c9bf313)
 
 
 
@@ -232,7 +257,10 @@ Seguem algumas amostras de SMSs que foram emitidos pelo Twilio enquanto eu estav
 
 ![Badge 1](http://img.shields.io/static/v1?label=Padrão&message=Strategy&color=GREEN&style=for-the-badge)
 
-# f22
+
+![f22, 22- Padrão Strategy Captura de Tela (808)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/6852222e-ff73-4df9-b9ad-61cc5efa34f5)
+
+
 
 
 ### Caso você rode toda a estrutura da arquitetura de microsserviços e não cumpra o 'passo 03 de 03' do item anterior (deixando as linhas comentadas como constante das 2 fotos, a conexão com o Twilio continuará inerte), logo:
@@ -253,10 +281,12 @@ Seguem algumas amostras de SMSs que foram emitidos pelo Twilio enquanto eu estav
 - **spring.profiles.active=test** banco de dados H2.
 - **spring.profiles.active=dev** banco de dados PostgresSQL.
 
-# f23
+
+![f23, app properties-Traffic Fine Record](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/64513ddc-d76b-4fae-b15a-1762e057c1f7)
 
 
-# f24
+
+![f24, app properties-User](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/bf944a86-697b-44b5-8cae-7b38f03bb195)
 
 
 
@@ -289,16 +319,20 @@ Já o Service Registry e o Config Server possuem apenas Basic Authentication.
 - Implementei dois tipos de RoleType: **ROLE_USER** e **ROLE_ADMIN**
 - Como regra de negócio, decidi não implementar deleção em castata de usuário, uma vez que, ao deletar usuário em cascata, automaticamente estaríamos também apagando todas as multas/autuações atreladas a ele...
 
-# f25
+
+![f25, PostmanCollections](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/1b4d1516-0207-46a0-a0a1-e60f8ff7f505)
 
 
-# f26
+
+
+![f26, PostmanEnvironments2](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/de8dc26a-3ce5-43f3-8efb-b9e05b3e3c5c)
 
 
 
 ### 14.1- Testes iniciais (necessário implementar previamente os três Seeds import.sql em cada uma das APIs)
 
-# f27
+
+![f27, PostmanInitialTests](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/497a26e9-997b-4e6d-9a58-10db65cb1cc5)
 
 
 
@@ -336,7 +370,8 @@ POST  {{UserUrl}}/user/login
 
 ```
 
-# f28 
+
+![f28, token Y1gg Captura de Tela (829) 1gg](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/b2f73b7d-cb4a-4fda-b1db-9dfb0af758ad)
 
 
 
@@ -411,7 +446,8 @@ POST  {{UserUrl}}/user/login
 
 ```
 
-# f29
+
+![f29, token nna Captura de Tela (830) nnA](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/2f5cddbb-0289-4310-b9d8-8a7fc451590f)
 
 
 
@@ -586,7 +622,8 @@ POST  {{UserUrl}}/user/login
 
 ```
 
-# f30
+
+![f30, token r6g, Captura de Tela (831) r6g](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/5c56c059-da75-4c3f-adbc-cbc72ce330f2)
 
 
 
@@ -881,7 +918,8 @@ POST  {{UserUrl}}/user/login
 
 ```
 
-# f31
+
+![f31, token SKw, Captura de Tela (832) SKw](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/3cd424ff-5a77-49f1-9555-4ef4900dafab)
 
 
 
@@ -951,7 +989,8 @@ POST  {{UserUrl}}/user/login
 
 ```
 
-# f32
+
+![f32, token 9XA,Captura de Tela (833) 9XA](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/646e2e85-845b-4cb4-a384-2d070a121b80)
 
 
 
@@ -1196,7 +1235,8 @@ POST  {{UserUrl}}/user/login
 
 ```
 
-# f33
+
+![f33, token 7VQ, 1-Token Juan](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/ce475c52-e897-42fc-8036-b3e73dafb546)
 
 
 
@@ -1775,7 +1815,8 @@ POST  {{UserUrl}}/user/login
 ```
 
 
-# f34
+
+![f34, token SUdQ, 2-Token Sarah](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/b9a4ee77-b66a-4634-ad4e-287226d433c8)
 
 
 
