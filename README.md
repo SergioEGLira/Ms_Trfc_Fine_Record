@@ -11,7 +11,9 @@ Assim sendo, em apenas uma situação do diagrama abaixo, implementei comunicaç
 
 
 
-![f01- Foto Draw-TrafficFineRecord, v4 base Linkedin](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/2f2a0cb7-0fec-4a66-bd64-ff80f88073a3)
+
+
+![f01- Foto Draw-TrafficFineRecord, v4 base Linkedin](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/8bf6956e-4ffb-4d88-9898-fa0596b95614)
 
 
 
@@ -41,7 +43,8 @@ docker run --name dck-rabbitmq -p 5672:5672 -p 15672:15672 --hostname rabbitmq-m
 
 
 
-![f02, 02- Captura de Tela (788)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/550bebf6-bfa2-46f5-b829-e05e782a17df)
+
+![f02, 02- Captura de Tela (788)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/13427647-6061-4f10-96e3-bef43be53292)
 
 
 
@@ -51,7 +54,8 @@ docker run --name dck-rabbitmq -p 5672:5672 -p 15672:15672 --hostname rabbitmq-m
 
 
 
-![f03, 03- Captura de Tela (789)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/91e05167-86de-424b-bf81-f4c8124d1342)
+
+![f03, 03- Captura de Tela (789)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/e6f91684-b82f-4cab-b8d6-e1c8d0f1ea6f)
 
 
 
@@ -60,7 +64,8 @@ docker run --name dck-rabbitmq -p 5672:5672 -p 15672:15672 --hostname rabbitmq-m
 
 
 
-![f04, 05new - Eureka, Captura de Tela (809)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/e3e02ef0-398e-46d8-a0c8-471286638c74)
+
+![f04, 05new - Eureka, Captura de Tela (809)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/400a84af-bed7-41c5-a81f-2f12078131fa)
 
 
 
@@ -71,7 +76,8 @@ A base de dados é distribuída, cada uma com suas próprias responsabilidades, 
 
 
 
-![f05, 05- Captura de Tela (802)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/e6579200-378f-40a0-aaeb-73ce15161705)
+
+![f05, 05- Captura de Tela (802)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/a28718ce-5831-4a78-8d14-f5b6f34f7bee)
 
 
 
@@ -82,7 +88,8 @@ A base de dados é distribuída, cada uma com suas próprias responsabilidades, 
 ![Badge 1](http://img.shields.io/static/v1?label=Rabbit_MQ&message=Exchanges:&color=GREEN&style=for-the-badge)
 
 
-![f06, 07 1new, Rabbit Exchanges, Captura de Tela (810)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/b3827663-491a-4e56-b174-bb12911ebbd7)
+
+![f06, 07 1new, Rabbit Exchanges, Captura de Tela (810)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/6a9ea0e1-ce7f-457f-b7b8-5547015d4b4e)
 
 
 
@@ -91,7 +98,8 @@ A base de dados é distribuída, cada uma com suas próprias responsabilidades, 
 
 
 
-![f07, 07 2new, Rabbir Queues, Captura de Tela (811)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/415f39f8-966a-4993-aed0-1498abe629a0)
+
+![f07, 07 2new, Rabbir Queues, Captura de Tela (811)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/571a2fb1-549a-4210-90ba-0f2c5e1d31f1)
 
 
 
@@ -102,7 +110,8 @@ A base de dados é distribuída, cada uma com suas próprias responsabilidades, 
 
 
 
-![f08, 08- Captura de Tela (801)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/36afeb92-a1db-40f9-868b-84afc2fb8e6d)
+
+![f08, 08- Captura de Tela (801)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/d51a01a3-bd36-431b-8b35-4946a4763010)
 
 
 
@@ -113,7 +122,8 @@ Não utilizei UUIDs nas tabelas ‘tb_user’, ‘tb_automovel’ e ‘tb_infrac
 ![Badge 1](http://img.shields.io/static/v1?label=Tb_Roles&message=da%20Api-User:&color=GREEN&style=for-the-badge)
 
 
-![f09, 91new, TB ROLES Captura de Tela (816)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/a8cac91a-b75a-48ef-8053-5d4017b8fb9b)
+
+![f09, 91new, TB ROLES Captura de Tela (816)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/87244e91-7ebf-4cee-91a1-fd427e4d932f)
 
 
 
@@ -122,7 +132,8 @@ Não utilizei UUIDs nas tabelas ‘tb_user’, ‘tb_automovel’ e ‘tb_infrac
 ![Badge 1](http://img.shields.io/static/v1?label=Tb_User&message=da%20Api-User:&color=GREEN&style=for-the-badge)
 
 
-![f10, 92NEW, TB USER, Captura de Tela (817)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/425a5f5b-6859-4550-9bdd-12484b3c565f)
+
+![f10, 92NEW, TB USER, Captura de Tela (817)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/b86bf6f7-6b70-4938-8fd4-0b0776a9b936)
 
 
 
@@ -131,7 +142,8 @@ Não utilizei UUIDs nas tabelas ‘tb_user’, ‘tb_automovel’ e ‘tb_infrac
 ![Badge 1](http://img.shields.io/static/v1?label=Tb_Users_Roles&message=da%20Api-User:&color=GREEN&style=for-the-badge)
 
 
-![f11, 93NEW, TB USERS ROLES, Captura de Tela (818)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/c9b6ff8c-e026-4dc2-af27-0f46d4cba1cf)
+
+![f11, 93NEW, TB USERS ROLES, Captura de Tela (818)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/12da4659-b3c5-4065-b40b-e58ec356c2fb)
 
 
 
@@ -140,7 +152,8 @@ Não utilizei UUIDs nas tabelas ‘tb_user’, ‘tb_automovel’ e ‘tb_infrac
 ![Badge 1](http://img.shields.io/static/v1?label=Tb_Automóvel&message=da%20Api-TrafficFineRecord:&color=GREEN&style=for-the-badge)
 
 
-![f12, 94NEW, TB AUTOMOVEL, Captura de Tela (819)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/0c86750c-228a-4666-9312-d89192f368e6)
+
+![f12, 94NEW, TB AUTOMOVEL, Captura de Tela (819)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/64d4b547-b892-47b9-9c78-305c0d0b7849)
 
 
 
@@ -149,7 +162,8 @@ Não utilizei UUIDs nas tabelas ‘tb_user’, ‘tb_automovel’ e ‘tb_infrac
 ![Badge 1](http://img.shields.io/static/v1?label=Tb_Autuação&message=da%20Api-TrafficFineRecord:&color=GREEN&style=for-the-badge)
 
 
-![f13, 95NEW, TB AUTUAÇÃO Captura de Tela (820)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/5556105f-3f51-4423-b7a8-56937de15e02)
+
+![f13, 95NEW, TB AUTUAÇÃO Captura de Tela (820)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/8df03341-2fcb-449b-bbaf-92504a600cec)
 
 
 
@@ -158,7 +172,8 @@ Não utilizei UUIDs nas tabelas ‘tb_user’, ‘tb_automovel’ e ‘tb_infrac
 ![Badge 1](http://img.shields.io/static/v1?label=Tb_Infração&message=da%20Api-TrafficFineRecord:&color=GREEN&style=for-the-badge)
 
 
-![f14, 96NEW, TB INFRAÇÃO, Captura de Tela (821)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/d9e111dc-cb9b-46f2-8185-8fc19b5229a7)
+
+![f14, 96NEW, TB INFRAÇÃO, Captura de Tela (821)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/73e3fd17-ed96-4e7f-853e-4fa3eba541f0)
 
 
 
@@ -168,7 +183,8 @@ Não utilizei UUIDs nas tabelas ‘tb_user’, ‘tb_automovel’ e ‘tb_infrac
 Buscando maior disponibilidade na arquitetura, a API-User replica seus dados (‘tb_user’) para a API-TrafficFineRecord.
 
 
-![f15, 97NEW, TB USER REPLICA, Captura de Tela (822)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/8abbac52-5ef1-4e9b-8ec2-9eed5694f8cd)
+
+![f15, 97NEW, TB USER REPLICA, Captura de Tela (822)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/fe104571-b1ed-4c93-a553-2a4a4412f80e)
 
 
 
@@ -184,7 +200,8 @@ Resumindo, a API-TrafficFineRecord ao registrar nova autuação de trânsito emi
 
 
 
-![f16, 98NEW, TB TWILIO, Captura de Tela (823)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/9fe7bdfd-afff-4140-9fd9-a1af9628804f)
+
+![f16, 98NEW, TB TWILIO, Captura de Tela (823)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/381e04d1-a1a2-4b93-8eab-0d3bace707ee)
 
 
 
@@ -209,7 +226,8 @@ e copiar as informações abaixo, que deverão ser inseridas como variável de a
 
 
 
-![f17, 18- Captura de Tela (805)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/f6ef9556-0223-4f7e-b49e-281241c21747)
+
+![f17, 18- Captura de Tela (805)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/0ee67298-35f1-4502-934b-9afd5a25a75a)
 
 
 
@@ -227,20 +245,23 @@ twilio.phone.to=${TWILIO_PHONE_TO}
 Lembrando que 'TWILIO_PHONE_TO' deve ser o seu número de telefone pessoal que ficou cadastrado no site Twilio.
 
 
-![f18, 17- Captura de Tela (804)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/24a4fad9-f391-41cd-8557-052746873646)
+
+![f18, 17- Captura de Tela (804)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/5f67dd16-2156-4a6e-860e-88b669311046)
 
 
 
 ### Passo 03 de 03:   Necessário, também, **descomentar** as linhas 21 a 31 e as linhas 48 a 58 da classe TwilioSmsService.java, conforme ambas as fotos abaixo:
 
 
-![f19, 19 Captura de Tela (806)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/b59e9c70-d751-4897-805d-274d24c39d0e)
+
+![f19, 19 Captura de Tela (806)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/26e18149-11d2-42b8-be18-0705241d1da9)
 
 
 
 
 
-![f20, 20- Captura de Tela (807)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/5a1c4347-646a-447f-a60c-51351702848c)
+
+![f20, 20- Captura de Tela (807)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/98ea3571-01f7-4292-a3f1-493048b2c41d)
 
 
 
@@ -249,7 +270,8 @@ Seguem algumas amostras de SMSs que foram emitidos pelo Twilio enquanto eu estav
 
 
 
-![f21, 22- SMS IMG-20230616-WA0003](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/a371f60d-455b-4687-afdc-40963c9bf313)
+
+![f21, 22- SMS IMG-20230616-WA0003](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/58a06a3c-058d-4be9-8fab-e3644cec88a0)
 
 
 
@@ -258,7 +280,8 @@ Seguem algumas amostras de SMSs que foram emitidos pelo Twilio enquanto eu estav
 ![Badge 1](http://img.shields.io/static/v1?label=Padrão&message=Strategy&color=GREEN&style=for-the-badge)
 
 
-![f22, 22- Padrão Strategy Captura de Tela (808)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/6852222e-ff73-4df9-b9ad-61cc5efa34f5)
+
+![f22, 22- Padrão Strategy Captura de Tela (808)](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/cb25a1d4-9f3d-460f-b30b-7d3d1730cb83)
 
 
 
@@ -282,11 +305,13 @@ Seguem algumas amostras de SMSs que foram emitidos pelo Twilio enquanto eu estav
 - **spring.profiles.active=dev** banco de dados PostgresSQL.
 
 
-![f23, app properties-Traffic Fine Record](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/64513ddc-d76b-4fae-b15a-1762e057c1f7)
+
+![f23, app properties-Traffic Fine Record](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/fd67b184-4f46-4b3e-94d4-c3dce11b3d20)
 
 
 
-![f24, app properties-User](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/bf944a86-697b-44b5-8cae-7b38f03bb195)
+
+![f24, app properties-User](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/42697e3d-cc24-474d-a6d6-4c73f6f24ee1)
 
 
 
@@ -320,19 +345,22 @@ Já o Service Registry e o Config Server possuem apenas Basic Authentication.
 - Como regra de negócio, decidi não implementar deleção em castata de usuário, uma vez que, ao deletar usuário em cascata, automaticamente estaríamos também apagando todas as multas/autuações atreladas a ele...
 
 
-![f25, PostmanCollections](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/1b4d1516-0207-46a0-a0a1-e60f8ff7f505)
+
+![f25, PostmanCollections](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/fc1f386a-9b5f-4309-aa88-65e3907b70eb)
 
 
 
 
-![f26, PostmanEnvironments2](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/de8dc26a-3ce5-43f3-8efb-b9e05b3e3c5c)
+
+![f26, PostmanEnvironments2](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/fc8918a0-6f2b-4de6-9482-126b1d54eb50)
 
 
 
 ### 14.1- Testes iniciais (necessário implementar previamente os três Seeds import.sql em cada uma das APIs)
 
 
-![f27, PostmanInitialTests](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/497a26e9-997b-4e6d-9a58-10db65cb1cc5)
+
+![f27, PostmanInitialTests](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/2fa12406-77cd-4604-a92d-fffc8be77d4f)
 
 
 
@@ -371,7 +399,8 @@ POST  {{UserUrl}}/user/login
 ```
 
 
-![f28, token Y1gg Captura de Tela (829) 1gg](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/b2f73b7d-cb4a-4fda-b1db-9dfb0af758ad)
+
+![f28, token Y1gg Captura de Tela (829) 1gg](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/54cffb48-3ec1-4ac3-8675-135c70eb7f0e)
 
 
 
@@ -447,7 +476,8 @@ POST  {{UserUrl}}/user/login
 ```
 
 
-![f29, token nna Captura de Tela (830) nnA](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/2f5cddbb-0289-4310-b9d8-8a7fc451590f)
+
+![f29, token nna Captura de Tela (830) nnA](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/4215cd6d-ad3e-42d9-ba7f-f82df35d18b4)
 
 
 
@@ -623,7 +653,8 @@ POST  {{UserUrl}}/user/login
 ```
 
 
-![f30, token r6g, Captura de Tela (831) r6g](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/5c56c059-da75-4c3f-adbc-cbc72ce330f2)
+
+![f30, token r6g, Captura de Tela (831) r6g](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/b1a2dfd8-f345-4e8a-a4c8-3b7e8d627689)
 
 
 
@@ -919,7 +950,8 @@ POST  {{UserUrl}}/user/login
 ```
 
 
-![f31, token SKw, Captura de Tela (832) SKw](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/3cd424ff-5a77-49f1-9555-4ef4900dafab)
+
+![f31, token SKw, Captura de Tela (832) SKw](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/78afc673-92e3-4291-8065-808e2436f39c)
 
 
 
@@ -990,7 +1022,8 @@ POST  {{UserUrl}}/user/login
 ```
 
 
-![f32, token 9XA,Captura de Tela (833) 9XA](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/646e2e85-845b-4cb4-a384-2d070a121b80)
+
+![f32, token 9XA,Captura de Tela (833) 9XA](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/7ad69dc8-1d23-444a-9538-7dfd1706b730)
 
 
 
@@ -1236,7 +1269,8 @@ POST  {{UserUrl}}/user/login
 ```
 
 
-![f33, token 7VQ, 1-Token Juan](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/ce475c52-e897-42fc-8036-b3e73dafb546)
+
+![f33, token 7VQ, 1-Token Juan](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/b3b958c1-b889-4658-ad89-9b6322266caa)
 
 
 
@@ -1816,7 +1850,8 @@ POST  {{UserUrl}}/user/login
 
 
 
-![f34, token SUdQ, 2-Token Sarah](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/b9a4ee77-b66a-4634-ad4e-287226d433c8)
+
+![f34, token SUdQ, 2-Token Sarah](https://github.com/SergioEGLira/Ms_Trfc_Fine_Record/assets/57645281/865d9bfd-11c6-46b8-ac1a-f556cad9adc7)
 
 
 
