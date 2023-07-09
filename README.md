@@ -235,7 +235,7 @@ e copiar as informações abaixo, que deverão ser inseridas como variável de a
 ### Passo 02 de 03:   Necessário inserir as seguintes variáveis de ambiente:
 
 
-- Api SmsMessage
+- Api-SmsMessage.properties
 ```
 twilio.sid=${TWILIO_SID}
 twilio.key=${TWILIO_KEY}
