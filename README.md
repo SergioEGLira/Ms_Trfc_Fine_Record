@@ -288,16 +288,16 @@ Seguem algumas amostras de SMSs que foram emitidos pelo Twilio enquanto eu estav
 
 ### Caso você rode toda a estrutura da arquitetura de microsserviços e não cumpra o 'passo 03 de 03' do item anterior (deixando as linhas comentadas como constante das 2 fotos, a conexão com o Twilio continuará inerte), logo:
 
-- **spring.profiles.active=testMockSms** não enviará mensagem SMS e também não salvará a mensagem em banco de dados.
-- **spring.profiles.active=testH2TwilioSms** não enviará mensagem SMS, mas salvará a mensagem no banco H2.
-- **spring.profiles.active=devTwilioSmsPostgreSql** não enviará mensagem SMS, mas salvará a mensagem no banco PostgresSQL.
+- **spring.profiles.active=testMockSms** gerará Log, mas não enviará mensagem SMS e também não salvará a mensagem em banco de dados.
+- **spring.profiles.active=testH2TwilioSms** gerará Log, mas não enviará mensagem SMS, mas salvará a mensagem no banco H2.
+- **spring.profiles.active=devTwilioSmsPostgreSql** gerará Log, mas não enviará mensagem SMS, mas salvará a mensagem no banco PostgresSQL.
 
   
 ### Caso você cumpra todos os 'passos 01 ao 03' do item anterior (ativando a conexão com o Twilio) e, em seguida, rode toda a estrutura da arquitetura de microsserviços:
 
-- **spring.profiles.active=testMockSms** não enviará mensagem SMS e também não salvará a mensagem em banco de dados.
-- **spring.profiles.active=testH2TwilioSms** enviará mensagem SMS para o seu celular e, tembém, salvará a mensagem no banco H2.
-- **spring.profiles.active=devTwilioSmsPostgreSql** enviará mensagem SMS para o seu celular e, também, salvará a mensagem no banco PostgresSQL.
+- **spring.profiles.active=testMockSms** gerará Log, mas não enviará mensagem SMS e também não salvará a mensagem em banco de dados.
+- **spring.profiles.active=testH2TwilioSms** gerará Log e enviará mensagem SMS para o seu celular e, tembém, salvará a mensagem no banco H2.
+- **spring.profiles.active=devTwilioSmsPostgreSql** gerará Log e enviará mensagem SMS para o seu celular e, também, salvará a mensagem no banco PostgresSQL.
 
 ## 12- Demais application.properties
 
