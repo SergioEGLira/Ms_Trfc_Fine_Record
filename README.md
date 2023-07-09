@@ -286,7 +286,7 @@ Seguem algumas amostras de SMSs que foram emitidos pelo Twilio enquanto eu estav
 
 
 
-### Caso você rode toda a estrutura da arquitetura de microsserviços e não cumpra o 'passo 03 de 03' do item anterior (deixando as linhas comentadas como constante das 2 fotos, a conexão com o Twilio continuará inerte), logo:
+### Caso você rode toda a estrutura da arquitetura de microsserviços e não cumpra o 'passo 03 de 03' do item anterior (deixando as linhas comentadas como constante das 2 fotos), a conexão com o Twilio continuará inerte, logo:
 
 - **spring.profiles.active=testMockSms** gerará Log, mas não enviará mensagem SMS e também não salvará a mensagem em banco de dados.
 - **spring.profiles.active=testH2TwilioSms** gerará Log, mas não enviará mensagem SMS, mas salvará a mensagem no banco H2.
